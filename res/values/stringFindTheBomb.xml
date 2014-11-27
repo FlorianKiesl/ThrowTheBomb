@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="title_activity_find_the_bomb">FindTheBombActivity</string>
+    <string name="txt_playersLeft">20 Players of 50 left</string>
+    
+</resources>

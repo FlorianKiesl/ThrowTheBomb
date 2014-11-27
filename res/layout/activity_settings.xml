@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:id="@+id/editText_OldPassword_User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/user_oldPassword" />
+    <EditText
+        android:id="@+id/editText_NewPassword_User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/user_newPassword" />
+    <EditText
+        android:id="@+id/editText_NewPasswordRepeat_User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/user_newPasswordRepeat" />
+    <Button
+        android:id="@+id/button_AcceptPWDChanges_Settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:onClick=""
+        android:text="@string/button_AcceptPWDChanges" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Notification_Settings"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="none"
+        android:lines="2"
+        android:text="@string/checkBox_Notification" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Hints_Settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="@string/checkBox_Hints"/>
+    <Button
+        android:id="@+id/button_Info_Settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:onClick=""
+        android:text="@string/button_Info" />
+</LinearLayout>

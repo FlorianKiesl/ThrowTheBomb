@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <EditText
+        android:id="@+id/editText_Register_User"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/user_login" />
+
+    <EditText
+        android:id="@+id/editText_Register_Pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_Register_User"
+        android:layout_below="@+id/editText_Register_User"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/user_pwd" />
+
+    <EditText
+        android:id="@+id/editText_Register_PwdRepeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_Register_Pwd"
+        android:layout_below="@+id/editText_Register_Pwd"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/user_pwd" />
+
+    <Button
+        android:id="@+id/button_Register_Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_Register_PwdRepeat"
+        android:layout_alignRight="@+id/editText_Register_User"
+        android:layout_below="@+id/editText_Register_PwdRepeat"
+        android:layout_marginTop="26dp"
+        android:onClick="do_registration"
+        android:text="@string/button_register" />
+
+</RelativeLayout>

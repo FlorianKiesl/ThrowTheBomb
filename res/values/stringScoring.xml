@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_scoring">ScoringActivity</string>
+    <string name="tab_LiveScoring">Live Scoring</string>
+    <string name="tab_AlltimeScoring">All-Time Scoring</string>
+</resources>

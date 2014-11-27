@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    tools:context="se.throwthebomb.FindTheBombActivity" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:columnCount="3">
+		    <ImageView 
+			    android:id= "@+id/shield"
+			    android:layout_width="50dp"
+			    android:layout_height="50dp"
+			    android:layout_gravity="left"
+			    android:contentDescription="@null"
+			    android:src="@drawable/shield" />
+
+		
+			<ImageView
+			    android:id="@+id/ghost"
+			    android:layout_width="50dp"
+			    android:layout_height="50dp"
+			    android:layout_column="2"
+			    android:contentDescription="@null"
+			    android:src="@drawable/ghost" />
+     
+    </GridLayout>
+
+	<ImageView
+	    android:id="@+id/findthebomb"
+	    android:layout_width="300dp"
+	    android:layout_height="300dp"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="15dp"
+	    android:contentDescription="@null"
+	    android:src="@drawable/searchbomb" />
+
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+	    android:padding="20dp">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:text="@string/txt_playersLeft" />
+
+	    <ProgressBar
+	        android:id="@+id/progBar_PlayersLeft"
+	        style="@android:style/Widget.ProgressBar.Horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="25dp"
+	        android:minHeight="16dp"
+	        android:progress="75" />
+
+	</LinearLayout>
+
+</LinearLayout>

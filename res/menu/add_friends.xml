@@ -1,0 +1,5 @@
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/action_scoring" android:title="@string/action_scoring" android:showAsAction="never" android:orderInCategory="100"></item>
+        <item android:id="@+id/action_settings" android:title="@string/action_settings" android:showAsAction="never" android:orderInCategory="100"></item>
+        <item android:id="@+id/action_game" android:title="@string/action_game" android:showAsAction="never" android:orderInCategory="100"></item>
+    </menu>

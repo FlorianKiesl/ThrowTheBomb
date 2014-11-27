@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="user_oldPassword">old password</string>
+    <string name="user_newPassword">new password</string>
+    <string name="user_newPasswordRepeat">new password</string>
+    <string name="button_AcceptPWDChanges">Change Password</string>
+    <string name="checkBox_Notification">Send Push Notifications</string>
+    <string name="checkBox_Hints">Show Hints</string>
+    <string name="button_Info">Info</string>
+    
+</resources>

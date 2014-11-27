@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    tools:context="se.throwthebomb.BombActivity" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:columnCount="3">
+
+			<ImageView
+			    android:id="@+id/target"
+			    android:layout_width="50dp"
+			    android:layout_height="50dp"
+			    android:layout_column="2"
+			    android:contentDescription="@null"
+			    android:src="@drawable/target" />
+     
+    </GridLayout>
+
+	<ImageView
+	    android:id="@+id/bomb"
+	    android:layout_width="250dp"
+	    android:layout_height="250dp"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="15dp"
+	    android:contentDescription="@null"
+	    android:src="@drawable/bomb" />
+
+	<ImageButton
+	    android:id="@+id/imagebutton_detonator"
+	    android:layout_width="70dp"
+	    android:layout_height="70dp"
+	    android:contentDescription="@null"
+	    android:layout_gravity="center_horizontal"
+	    android:src="@drawable/detonator" />
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+	    android:padding="20dp">
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:text="@string/txt_playersLeft" />
+
+	    <ProgressBar
+	        android:id="@+id/progBar_PlayersLeft"
+	        style="@android:style/Widget.ProgressBar.Horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="25dp"
+	        android:minHeight="16dp"
+	        android:progress="75" />
+
+	</LinearLayout>
+
+</LinearLayout>
